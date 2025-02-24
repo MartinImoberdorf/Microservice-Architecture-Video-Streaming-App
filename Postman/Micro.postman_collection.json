@@ -1,0 +1,131 @@
+{
+	"info": {
+		"_postman_id": "1863f3a9-aa7a-42a0-ae23-bf47e22325de",
+		"name": "Micro",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29818573"
+	},
+	"item": [
+		{
+			"name": "POST video",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"name\":\"Programming\",\r\n        \"description\":\"ASMR Programming video coding\",\r\n        \"path\":\"codingASMR.mp4\"\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8090/movie-info/save",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"movie-info",
+						"save"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET videos",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"name\":\"Programming\",\r\n        \"description\":\"ASMR Programming video coding\",\r\n        \"path\":\"codingASMR.mp4\"\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8090/movie-info/list",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"movie-info",
+						"list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET GATEWAY",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"name\":\"Programming\",\r\n        \"description\":\"ASMR Programming video coding\",\r\n        \"path\":\"codingASMR.mp4\"\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/movie-info/list",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"movie-info",
+						"list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET Video.mp4",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"name\":\"Programming\",\r\n        \"description\":\"ASMR Programming video coding\",\r\n        \"path\":\"codingASMR.mp4\"\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8091/stream/codingASMR.mp4",
+					"host": [
+						"localhost"
+					],
+					"port": "8091",
+					"path": [
+						"stream",
+						"codingASMR.mp4"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
