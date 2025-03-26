@@ -3,7 +3,7 @@
 The **Video-Streaming-App** is a backend system designed using a **microservice architecture** to handle video streaming functionality. It is built with **Spring Boot** and **Spring Cloud** to ensure scalability, fault tolerance, and efficient service discovery.
 
 ## Architecture
-<img src="https://github.com/MartinImoberdorf/Microservice-Architecture---Video-Streaming-App/blob/main/Architecture.png" alt="Main" width="1000" />
+<img src="https://github.com/MartinImoberdorf/Microservice-Architecture-Video-Streaming-App/blob/main/Architecture.png" alt="Main" width="1000" />
 
 ## Tech Stack
 
